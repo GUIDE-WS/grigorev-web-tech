@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.btn {
+    padding: 12px 30px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.btn:hover {
+    background-color: #ffaa00;
+}
+
+.btn_80 {
+    width: 80%;
+}
+
+.header {
+    background: linear-gradient(135deg, #4a90e2, #50b3a2);
+    padding: 60px 0;
+    color: white;
+}
+
+.header__wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__info-img-wrapper {
+    margin-bottom: 20px;
+}
+
+.header__info-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.header__info-title span {
+    font-size: 2.8rem;
+}
+
+.header__info-description {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.header__block-img {
+    max-width: 100%;
+}
+
+/* Средний блок */
+.content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.content__title {
+    margin-bottom: 20px;
+}
+
+.content__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content__block {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.content__block-title {
+    margin-bottom: 12px;
+}
+
+.content__block-text {
+    color: #555;
+}
+
+.content__block-img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.form {
+    background-color: #ecf3f8;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form__title {
+    margin-bottom: 40px;
+}
+
+.form__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    min-width: 50%;
+}
+
+.form__input {
+    width: 80%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: -4px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.form__input.invalid {
+    border-color: red;
+}
+
+.form__input.valid {
+    border-color: green;
+}
+
+.footer {
+    background: linear-gradient(135deg, #4a90e2, #50b3a2);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer__info {
+    font-size: 14px;
+}

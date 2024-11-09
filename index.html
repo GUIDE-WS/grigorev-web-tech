@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__block">
+                <div class="header__info-img-wrapper">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="header__info-text-wrapper">
+                    <h2 class="header__info-title">
+                        С помощью нас 
+                        <br>
+                        вы сможете создать то, о чем
+                        <br>
+                        <span >желаете!</span>
+                    </h2>
+                    <div class="header__info-description">
+                        <p>Наши возможности + опыт позволят Вам достичь</p>
+                        <p>огромного успеха. Мы верим в вас! И знаем это на</p>
+                        <p>все 100%. Вас не остановить</p>
+                    </div>
+                    <button class="btn">Узнать больше...</button>
+                </div>
+            </div>
+            <div class="header__block">
+                <img class="header__block-img" src="img/header-img.png" alt="Phone Mockup">
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <h2 class="content__title">Что Вам необходимо?</h2>
+        <div class="content__wrapper">
+            <div class="content__block">
+                <img class="content__block-img" src="img/f3.png" alt="f3">
+                <h3 class="content__block-title">Первый блок</h3>
+                <p class="content__block-text">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="content__block">
+                <img class="content__block-img" src="img/f4.png" alt="f4">
+                <h3 class="content__block-title">Второй блок</h3>
+                <p class="content__block-text">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="content__block">
+                <img class="content__block-img" src="img/f5.png" alt="f5">
+                <h3 class="content__block-title">Третий блок</h3>
+                <p class="content__block-text">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <h2 class="form__title">Форма заказа обратного звонка</h2>
+        <form class="form__wrapper" id="callbackForm">
+            <input class="form__input" type="text" id="name" placeholder="Имя">
+            <span class="error-message hidden" id="nameError">Пожалуйста, введите ваше имя</span>
+
+            <input class="form__input" type="email" id="email" placeholder="Электронная почта">
+            <span class="error-message hidden" id="emailError">Введите корректный адрес электронной почты</span>
+
+            <input class="form__input" type="tel" id="phone" placeholder="Телефон">
+            <span class="error-message hidden" id="phoneError">Введите номер телефона в формате +1234567890</span>
+
+            <input class="form__input" type="date" id="date" placeholder="Выберите дату">
+            <span class="error-message hidden" id="dateError">Пожалуйста, выберите дату</span>
+
+            <button class="btn btn_80" type="submit">Отправить вопрос!</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <p class="footer__info">© Все на этом сайте защищено</p>
+    </footer>
+</body>
+</html>
